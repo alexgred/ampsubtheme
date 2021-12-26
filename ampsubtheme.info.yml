@@ -1,0 +1,21 @@
+name: Subtheme AMP
+type: theme
+base theme: amptheme
+
+description: The subtheme of the AMP theme.
+package: Custom
+core_version_requirement: ^8.8 || ^9
+
+libraries:
+  - ampsubtheme/base
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+
+version: '8.x-1.0'
